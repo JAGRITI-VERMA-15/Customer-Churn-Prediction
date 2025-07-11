@@ -35,7 +35,10 @@ Here is brief overview what i did :
 
 ### Model Training 
 
-- Before trained models i performed train
+- Before training models, i performed train test split to evaluate model performance properly.
+- Then train data using models- Logistic Regression, Random Forest, XGBoost and Decision Tree.
+- Used **GridSearchCV** for each model to tune hyperparameters via cross-validation and select optimal configurations.
+
 
 
 
