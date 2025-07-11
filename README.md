@@ -1,4 +1,5 @@
 # Customer-Churn-Prediction
+
 - **Name** - Jagriti
 - **Project** - Customer Churn Prediction
 - **Tools** -  Jupyter Notebook , Python , Numpy , Pandas , Matplotlib , Seaborn , Sklearn
@@ -39,6 +40,22 @@ Here is brief overview what i did :
 - Then train data using models- Logistic Regression, Random Forest, XGBoost and Decision Tree.
 - Used **GridSearchCV** for each model to tune hyperparameters via cross-validation and select optimal configurations.
 
+### Model Evaluation
+
+- Evaluated each tuned model using key metrics: accuracy, precision, recall, F1‑score, cross validation and ROC‑AUC score.
+- Compared model performance and selected the best-performing model based on a balanced trade-off of precision, recall, and AUC.
+
+# Conclusion
+
+The **XGBoost Classifier** was selected as the final model because it achieved the best overall performance:
+
+- **Accuracy**: 74.0%  
+- **Recall (Churn class)**: 80%  
+- **F1-Score (Churn class)**: 0.62  
+- **ROC-AUC**: **0.76** (highest among all models)  
+- **Cross-validation score**: 75.41% (consistent generalization performance)
+
+These results indicate that XGBoost is not only good at detecting churners (high recall) but also avoids many false alarms (reasonable precision), making it the most balanced and reliable model for this task.
 
 
 
