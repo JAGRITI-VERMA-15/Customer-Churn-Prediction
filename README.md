@@ -8,21 +8,21 @@
 
 # Business Understanding : 
 
-A major telecom company is losing subscribers every month, which impacts its revenue and profitability. Predicting which customers are likely to churn helps to retain them through targeted offers and interventions.
+- A major telecom company is losing subscribers every month, which impacts its revenue and profitability. Predicting which customers are likely to   churn helps to retain them through targeted offers and interventions.
 
 # Problem Statement : 
 
-Currently, the company lacks a proactive approach—customers at risk of leaving aren’t identified early, leading to reactive retention and inefficient spending. Analyzing usage and demographics can reveal churn patterns, enabling timely and focused retention efforts.
-
+- Currently, the company lacks a proactive approach—customers at risk of leaving aren’t identified early, leading to reactive retention and          inefficient spending. Analyzing usage and demographics can reveal churn patterns, enabling timely and focused retention efforts.
+  
 # Project Overview :
 
-This project aims to identify customers which are at risk of churning by building a predictive model using demographic data. The model enables the business to:
-- Detect high-risk customers before they leave  
-- Understand the key factors driving churn  
+- This project aims to identify customers which are at risk of churning by building a predictive model using demographic data. The model enables     the business to:
+   - Detect high-risk customers before they leave  
+   - Understand the key factors driving churn  
 
 # Dataset : 
 
-The data was taken from Kaggle site : https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data
+- The data was taken from Kaggle site : https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data
 
 # Project Overflow :
 
@@ -56,9 +56,3 @@ The **XGBoost Classifier** was selected as the final model because it achieved t
 - **Cross-validation score**: 75.41% (consistent generalization performance)
 
 These results indicate that XGBoost is not only good at detecting churners (high recall) but also avoids many false alarms (reasonable precision), making it the most balanced and reliable model for this task.
-
-
-
-
-
-
